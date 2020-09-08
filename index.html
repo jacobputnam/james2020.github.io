@@ -21,6 +21,8 @@
         <link href="https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        
+        
     </head>
 
 <body>
@@ -29,9 +31,7 @@
         <div class="logo">
             <a href="index.html">Happy Birthday, James!</a>
         </div>
-        <div class="menu-icon">
-        <span></span>
-      </div>
+        
     </nav>
 
     <div id="video-container">
@@ -39,13 +39,14 @@
         <div class="video-content">
             <div class="inner">
               <h1>Good Job James!</h1>
-              <p>Happy birthday from your Twitch viewers!</p>
+              <p>Happy birthday from your Twitch viewers!</p> 
               
-              <audio controls autoplay>
-  <source src="celebration.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-              
+        <audio autoplay loop controls id="playAudio">
+	  <source src="celebration.mp3">
+	</audio>
+	
+
+
               <p>Below are some birthday messages</p>
                 <div class="scroll-icon">
                     <a class="scrollTo" data-scrollTo="portfolio" href="#"><img src="img/scroll-icon.png" alt=""></a>
