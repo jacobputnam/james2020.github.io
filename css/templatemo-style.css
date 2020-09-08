@@ -252,8 +252,10 @@ nav {
 
 .full-screen-portfolio .container-fluid,
 .full-screen-portfolio .col-md-4, .col-md-8 {
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-bottom: 1px;
+  padding-top: 1px;
 }
 
 
@@ -271,7 +273,7 @@ nav {
     position: absolute;
     text-align: left;
     width: 100%;
-    bottom: 0;
+    bottom: 1;
     left: 0;
 }
 
